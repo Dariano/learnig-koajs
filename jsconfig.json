@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"target": "ES6"
+	},
+	"files": [
+		"testes/todo.test.js",
+		"testes/apitodo.test.js",
+		"app.js",
+		"models/todo.js",
+		"routes/todos.js",
+		"controllers/todo.js"	
+	]
+}
