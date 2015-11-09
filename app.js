@@ -7,7 +7,6 @@ let mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost/todo');
 
-
-app.use(require('./routes/todos'))
+app.use(require('./routes/todos'));
 
 app.listen(3000);
